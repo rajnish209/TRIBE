@@ -1,0 +1,14 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color: red;
+}
