@@ -69,7 +69,7 @@ export function Holiday() {
         }
     }
     const getData = () => {
-         axios.get("http://gov.uk/bank-holidays.json").then((res) => {
+         axios.get("https://gov.uk/bank-holidays.json").then((res) => {
             let arr = [];
             for (let key in res.data) {
                 arr.push(res.data[key]);
